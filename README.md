@@ -41,8 +41,10 @@ allprojects {
 And as next step add dependency to project:  
   
 ```gradle  
-dependencies  {  
-   implementation 'com.github.hoangvuanhdevelopervn:ConstraintView:1.0'
+dependencies  {   
+    ...
+    implementation 'com.github.hoangvuanhdevelopervn:ConstraintView:1.0'
+
  }  
 ```  
   
