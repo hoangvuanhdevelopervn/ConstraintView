@@ -13,7 +13,7 @@ _**Constraint for view in android app**_
   
   
   
-![dp example](https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/118761716_752876715288816_5417809174118962008_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=zHJEvaFV1AEAX9icwJM&_nc_ht=scontent.fhan2-4.fna&oh=718fdbe5a589d7153bbaebc0c96593d0&oe=5F765A5F)  
+![dp example](https://firebasestorage.googleapis.com/v0/b/tudiendanhngon-ba6bc.appspot.com/o/Image%2FLinhTinh%2FScreenshot_2020-09-10-19-50-59-889_com.hvasoftware.constraintview%5B1%5D.jpg?alt=media&token=e58a299d-bffd-4be9-992d-8603a407f163)  
   
   
   
