@@ -42,6 +42,20 @@ class ConstraintView(mContext: Context) {
         view.layoutParams.width = (widthScreenPx() / ratio) + bonus
     }
 
+    fun getWidthAndHeightOfView(myView: View, iViewSizeCallback: IViewSizeCallback) {
+        myView.viewTreeObserver.addOnGlobalLayoutListener(object :
+            ViewTreeObserver.OnGlobalLayoutListener {
+            override fun onGlobalLayout() {
+                myView.viewTreeObserver.removeOnGlobalLayoutListener(this)
+                iViewSizeCallback.onSize(myView.width, myView.height)
+            }
+        })
+    }
+
+    fun setWidthAndHeightForView(myView: View, width: Double, height: Double) {
+        myView.layoutParams.width = width.toInt()
+        myView.layoutParams.height = height.toInt()
+    }
 
     fun setHeightRatioWithView(viewParent: View, viewChild: View, ratio: Double, bonus: Double) {
         viewParent.viewTreeObserver.addOnGlobalLayoutListener(object :
